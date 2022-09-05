@@ -2,8 +2,7 @@
 import { ref } from 'vue'
 
 defineProps({
-  msg: String,
-  user: String
+  msg: String
 })
 
 const count = ref(0)
@@ -11,7 +10,9 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
-   <h3>{{ user }}</h3>
+  <h2>{{ user }}</h2>
+  
+
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>

@@ -1,8 +1,7 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue';
-import Header from './components/Header.vue';
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -14,8 +13,7 @@ import Header from './components/Header.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <headerVue headerStr="this is test" />
-  <HelloWorld msg="rtr" user="grace" />
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
